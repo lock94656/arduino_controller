@@ -137,6 +137,7 @@ The program should reset the virtual controller and close the serial connection 
 ## License
 
 Distributed under the GNU License. See `LICENSE.txt` for more information.
+
 ---
 
 ## Contact
@@ -145,6 +146,9 @@ Hugo Gibert
 
 Project Link: [https://github.com/lock94656/arduino_controller
 ](https://github.com/lock9456/arduino_controller)
+
+
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
