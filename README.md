@@ -32,7 +32,7 @@ Before installing the project, make sure you have:
 - An Arduino Uno.
 - An analog joystick module.
 - Four push buttons.
-- Four 10 kO resistors.
+- Four 10k Ohms resistors.
 - A breadboard and jumper wires.
 - A Windows computer.
 - Python 3.12 or a compatible Python version.
@@ -61,7 +61,7 @@ Build the circuit according to the diagram above.
 | B      | D4          |
 | A      | D5          |
 
-Each button uses a 10 kO pull-down resistor connected between its digital input and GND. The button connects the same input to 5V when pressed.
+Each button uses a 10k Ohms pull-down resistor connected between its digital input and GND. The button connects the same input to 5V when pressed.
 
 **Important:** The wiring and Arduino code must use the same pull-down configuration. In this configuration, the code should use `INPUT`, and a pressed button should be read as `HIGH`.
 
@@ -72,7 +72,7 @@ Each button uses a 10 kO pull-down resistor connected between its digital input 
 1. Install and open the Arduino IDE.
 2. Connect the Arduino Uno to your computer using USB.
 3. Open the Arduino sketch (`.ino` file).
-4. Select **Arduino Uno** under Tools ? Board.
+4. Select **Arduino Uno** under Tools -> Board.
 5. Select the correct serial port under Tools ? Port.
 6. Upload the sketch to the Arduino.
 
